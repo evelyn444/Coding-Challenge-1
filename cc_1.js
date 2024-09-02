@@ -12,8 +12,23 @@ console.log(isActive), typeof(isActive);
 
 let products = ["lipstick", "blush", "eyeshadow"];
 const productDetails= {
-    Name: products, 
+    name: products, 
     inStock
-    Price: 20.00
+    Price: 20.00,
+
 }
 console.log(products,productDetails)
+
+//Task 3: Assignment Operators
+
+let accountBalance = 1234.00
+accountBalance += 50.00; 
+console.log("Updated Balance:",accountBalance); // update: 1284.00
+accountBalance -= 145.00;
+console.log("Updated Balance:",accountBalance); // update: 1139.00
+accountBalance *= 2.00;
+console.log("Updated Balance:",accountBalance); // update: 2278.00
+accountBalance /= 2.00;
+console.log("Updated Balance:",accountBalance); // update: 1139.00
+accountBalance %= 3.00;
+console.log("Updated Balance:",accountBalance); // update: 2
